@@ -11,7 +11,6 @@ namespace MyLinkedList
         public T Content;
         public MyLinkedListNode<T> Next;
         public MyLinkedListNode<T> Previous;
-
         public MyLinkedListNode(T content)
         {
             Content = content;
